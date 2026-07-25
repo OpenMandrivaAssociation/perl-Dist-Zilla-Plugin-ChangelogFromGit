@@ -1,15 +1,15 @@
 %define upstream_name    Dist-Zilla-Plugin-ChangelogFromGit
-%define upstream_version 0.002
+%define upstream_version 0.017
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	5
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	Build CHANGES from git commits and tags
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Dist/%{upstream_name}-%{upstream_version}.tar.gz
+Url:		https://github.com/rcaputo/dzp-changelogfromgit
+Source0:	https://cpan.metacpan.org/authors/id/R/RC/RCAPUTO/Dist-Zilla-Plugin-ChangelogFromGit-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
